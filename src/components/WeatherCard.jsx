@@ -21,7 +21,7 @@ export default function WeatherCard({ weather }) {
                     </div>
                     <div>
                         <p>🌬️ Wind</p>
-                        <p>{weather.wind} m/s</p>
+                        <p>{weather.wind.speed} m/s</p>
                     </div>
                 </div>
             </div>
