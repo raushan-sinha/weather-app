@@ -15,7 +15,6 @@ export default function SearchBox({ onSearch }) {
         } else if (!/^[a-zA-Z\s]+$/.test(result)) {
             setError('Invalid Characters! Enter Alphabetic City name.')
         } else {
-            console.log('City Name: ', result);
             onSearch(result);
             setCity('')
         }
