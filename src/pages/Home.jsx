@@ -25,7 +25,7 @@ export default function Home() {
     };
 
     return (
-        <section className="fixed top-[20%] left-1/2 -translate-x-1/2 w-[90%] max-w-md px-5 py-3 rounded-2xl border border-white/20 bg-linear-to-r from-sky-400/40 via-blue-500/30 to-indigo-500/30 backdrop-blur-lg shadow-lg z-50 transition-all duration-300 hover:shadow-xl hover:scale-[1.01]">
+        <section className="fixed top-[18%] left-1/2 -translate-x-1/2 w-[90%] max-w-md p-4 rounded-2xl bg-linear-to-r from-sky-400/30 to-indigo-500/30 border border-white/20 backdrop-blur-md shadow-md z-50  hover:shadow-xl transition">
             <Search onSearch={fetchWeatherAPI} />
             <WeatherCard weather={weather} />
         </section>
